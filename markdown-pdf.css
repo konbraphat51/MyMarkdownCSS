@@ -1,0 +1,85 @@
+body {
+	/* https://ics.media/entry/200317/ */
+	font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+		"Hiragino Sans", "Noto Sans", HiraKakuProN-W3, Meiryo, sans-serif;
+}
+
+p {
+	margin: 0 0.5rem 0.5rem 0.7rem;
+}
+
+h1 {
+	font-size: 2.5em;
+	padding: 0.1em 0;
+	border-top: solid 3px #81d498;
+	border-bottom: solid 3px #81d498;
+	text-align: center;
+	margin: 0 auto 1.5rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	padding: 0.2em 0.3rem;
+	color: #000000;
+	background: #f1ffed;
+	border-left: solid 5px #589e67;
+	margin: 0 0 0.5em;
+}
+
+h3 {
+	font-size: 1.5rem;
+	padding: 0 0.2rem;
+	border-bottom: solid 2px #81d498;
+	width: 60%;
+	margin: 0 0 0.5em;
+}
+
+h4 {
+	font-size: 1.5rem;
+	border-bottom: dashed 2px #81d498;
+	width: fit-content;
+	padding: 0 0.2rem;
+	margin: 0 0.2rem 0.5em;
+}
+
+h5 {
+	font-size: 1.5rem;
+	padding: 0 0.4rem;
+	margin: 0 0 0.5em;
+}
+
+h6 {
+	font-size: 1.2rem;
+	padding: 0 0.8rem;
+	margin: 0 0 0.5em;
+}
+
+blockquote {
+	border-left: solid 5px #81d498;
+	padding: 0.5em 0.2em 0.1em 0.2em;
+	margin: 0 0 0.5rem 1em;
+}
+
+code {
+	background: #e0e0e0;
+	color: #000000;
+	font-family: "Courier New", Courier, monospace;
+	padding: 0.1em 0.2em;
+	border-radius: 0.2em;
+}
+
+ul {
+	list-style-type: square;
+	list-style-position: inside;
+	padding: 0.2rem 0.5rem 0.2rem 1.3rem;
+}
+
+ol {
+	list-style-type: decimal;
+	list-style-position: inside;
+	padding: 0.2rem 0.5rem 0.2rem 1.3rem;
+}
+
+img {
+	width: 50%;
+}

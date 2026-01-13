@@ -192,15 +192,6 @@ body dfn {
   font-style: italic;
 }
 
-body h1 {
-	font-size: 1.5rem;
-	padding: 0.2em 0.3rem;
-	color: #000000;
-	background: #f1ffed;
-	border-left: solid 5px #589e67;
-	margin: 0 0 0.5em;
-}
-
 body mark {
   background-color: var(--bgColor-attention-muted);
   color: var(--fgColor-default);
@@ -399,6 +390,16 @@ body h6 {
   line-height: 1.25;
 }
 
+body h1 {
+	font-size: 2.5em;
+	padding: 0.1em 0;
+	border-top: solid 3px #81d498;
+	border-bottom: solid 3px #81d498;
+	text-align: center;
+	margin: 0 auto 1.5rem;
+  color: #000000;
+}
+
 body h2 {
 	font-size: 1.5rem;
 	padding: 0.2em 0.3rem;
@@ -412,7 +413,7 @@ body h3 {
 	font-size: 1.5rem;
 	padding: 0 0.2rem;
 	border-bottom: solid 2px #81d498;
-	width: 60%;
+	width: fit-content;
 	margin: 0 0 0.5em;
 }
 
